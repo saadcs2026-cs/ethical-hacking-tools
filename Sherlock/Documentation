@@ -1,0 +1,58 @@
+What is Sherlock?
+Sherlock is an OSINT tool that searches for a username across 300+ social media platforms simultaneously.
+
+---Installation
+# Google Cloud Shell (git method -- recommended)
+git clone https://github.com/sherlock-project/sherlock.git
+cd sherlock
+pip install tomli --break-system-packages
+Access:
+python3 -m sherlock_project username
+
+# Kali Linux
+sudo apt install sherlock -y
+Access:
+sherlock username
+
+
+
+---All options:
+
+# Basic search
+python3 -m sherlock_project username
+
+# Multiple usernames at once
+python3 -m sherlock_project user1 user2 user3
+
+# Save results to file
+python3 -m sherlock_project username --output results.txt
+
+# Search specific sites only
+python3 -m sherlock_project username --site twitter instagram
+
+# Set timeout (seconds)
+python3 -m sherlock_project username --timeout 10
+
+# Print all sites including not found
+python3 -m sherlock_project username --print-all
+
+# Print only found results (default)
+python3 -m sherlock_project username --print-found
+
+# Use proxy for anonymity
+python3 -m sherlock_project username --proxy http://127.0.0.1:8080
+
+# Open results in browser
+python3 -m sherlock_project username --browse
+
+# Export as CSV
+python3 -m sherlock_project username --csv
+
+
+
+---Important Notes
+
+-Instagram and Facebook often block automated tools -- false negatives are common
+-Always verify results manually by visiting the URL
+-Many results can be false positives — check for profile photo, bio, and activity
+-Use --print-all to see everything including non-matches
