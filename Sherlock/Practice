@@ -1,0 +1,31 @@
+---Legal Practice
+
+# Search your own username
+python3 -m sherlock_project your_own_username
+# In this example i will use Johnadam as username, you can search your own username.
+
+
+
+#Output you will see:
+
+[*] Checking username saadraf on:
+
+[+] AniWorld: https://aniworld.to/user/profil/saadraf
+[+] Chess: https://www.chess.com/member/saadraf
+[+] DailyMotion: https://www.dailymotion.com/saadraf
+[+] Discord: https://discord.com
+[+] Docker Hub: https://hub.docker.com/u/saadraf/
+[+] Freelancer: https://www.freelancer.com/u/saadraf
+[+] Kvinneguiden: https://forum.kvinneguiden.no
+[+] LinkedIn: https://linkedin.com/in/saadraf
+[+] NitroType: https://www.nitrotype.com/racer/saadraf
+[+] Snapchat: https://www.snapchat.com/add/saadraf
+[+] Steam Community (User): https://steamcommunity.com/id/saadraf/
+[+] TikTok: https://www.tiktok.com/@saadraf
+[+] Telegram: https://t.me/saadraf
+[+] Warrior Forum: https://www.warriorforum.com/members/saadraf.html
+[+] akniga: https://akniga.org/profile/saadraf
+[+] Pinterest: https://www.pinterest.com/saadraf/
+[+] BabyRu: https://www.baby.ru/u/saadraf
+
+[*] Search completed with 17 results
