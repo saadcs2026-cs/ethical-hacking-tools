@@ -1,4 +1,4 @@
-🛡️ Ethical Hacking Tools — Learning Notes
+🛡️ Ethical Hacking Tools  Learning Notes
 
 ⚠️ Disclaimer: All tools and techniques documented here are for educational purposes only.
 Only use these tools on systems you own or have explicit written permission to test.
