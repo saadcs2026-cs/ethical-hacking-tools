@@ -1,0 +1,48 @@
+# SpiderFoot — Automated OSINT At Scale
+
+One target. 200+ modules. Thousands of data points.
+
+## What is SpiderFoot?
+Free open-source OSINT automation tool that collects
+intelligence about a target from 200+ data sources.
+Give it a domain, IP, email, or username — it does the rest.
+
+## What it Collects
+→ Email addresses & employee names
+→ Subdomains & IP addresses
+→ Breached credentials
+→ Open ports & technologies
+→ Dark web mentions
+→ DNS & WHOIS records
+→ Geolocation data
+
+## Installation
+pip3 install spiderfoot
+
+OR via git:
+git clone https://github.com/smicallef/spiderfoot
+cd spiderfoot
+pip3 install -r requirements.txt
+
+## Launch Web UI
+python3 sf.py -l 127.0.0.1:5001
+Then open: http://127.0.0.1:5001
+
+## Commands
+python3 sf.py -s target.com -t domain      scan domain
+python3 sf.py -s email@x.com -t email      scan email
+python3 sf.py -s 192.168.1.1 -t ip         scan IP
+python3 sf.py -s username -t username      scan username
+python3 sf.py -M                           list all modules
+python3 sf.py -s target.com -o output.csv  save results
+
+## Use Cases
+→ Penetration testing recon
+→ Bug bounty hunting
+→ Threat intelligence
+→ Investigating your own exposure
+
+"Give it a target. Walk away.
+Come back to intelligence."
+
+⚠️ Only use on authorized targets.
