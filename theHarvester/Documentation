@@ -1,0 +1,49 @@
+# theHarvester — Email & Subdomain Recon
+
+The first tool every pentester runs on a target.
+
+## What is theHarvester?
+Free open-source recon tool that gathers emails,
+subdomains, IPs, and employee names from Google,
+Bing, LinkedIn, Shodan, and 20+ more sources.
+Pre-installed on Kali Linux.
+
+## Installation
+sudo apt install theharvester -y
+
+OR via git:
+git clone https://github.com/laramies/theHarvester
+cd theHarvester
+pip3 install -r requirements.txt
+
+## Commands
+theHarvester -d target.com -b google      Google search
+theHarvester -d target.com -b bing        Bing search
+theHarvester -d target.com -b linkedin    find employees
+theHarvester -d target.com -b shodan      find open ports
+theHarvester -d target.com -b all         use all sources
+theHarvester -d target.com -b all -l 100  limit 100 results
+theHarvester -d target.com -b all -f out  save to file
+
+## Sample Output
+Emails found:
+john.doe@target.com
+admin@target.com
+hr@target.com
+
+Subdomains found:
+mail.target.com
+vpn.target.com
+dev.target.com
+
+## Use Cases
+→ Find employee emails
+→ Subdomain enumeration
+→ Passive reconnaissance
+→ Bug bounty hunting
+→ First step in any pentest
+
+"Give me a domain. I'll give you
+their emails, subdomains, and employees."
+
+⚠️ Only use on authorized domains.
